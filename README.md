@@ -25,11 +25,11 @@ This project demonstrates the ability to architect, build, and operate such a sy
 
 ## Core Features
 
-✔️ Add, update, and view issues via **REST API** and simple HTML forms
-✔️ **Immutable audit logs** in DynamoDB for every status change
-✔️ **CloudWatch integration** to centralize logs for debugging + monitoring
-✔️ **Data visualization** with Matplotlib, embedded in the Flask UI
-✔️ **End-to-end AWS networking** inside a custom VPC
+* Add, update, and view issues via **REST API** and simple HTML forms
+* **Immutable audit logs** in DynamoDB for every status change
+* **CloudWatch integration** to centralize logs for debugging + monitoring
+* **Data visualization** with Matplotlib, embedded in the Flask UI
+* **End-to-end AWS networking** inside a custom VPC
 
 
 ## Skills Demonstrated
