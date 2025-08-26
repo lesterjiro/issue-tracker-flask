@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <body>
+    <h2>Update Issue {{ issue_id }}</h2>
+    <form action="/update/{{ issue_id }}" method="post">
+      <select name="status" required>
+        <option>Open</option>
+        <option>In Progress</option>
+        <option>Closed</option>
+      </select><br>
+      <button type="submit">Update</button>
+    </form>
+  </body>
+</html>

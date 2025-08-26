@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <body>
+    <h2>Add Issue</h2>
+    <form action="/add" method="post">
+      <input name="title" placeholder="Title" required><br>
+      <textarea name="description" placeholder="Description"></textarea><br>
+      <input name="assigned_to" placeholder="Assigned To"><br>
+      <select name="status">
+        <option>Open</option>
+        <option>In Progress</option>
+        <option>Closed</option>
+      </select><br>
+      <button type="submit">Create</button>
+    </form>
+  </body>
+</html>
